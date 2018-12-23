@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "383212921124",
+    "firebase_url": "https://appjam-50ca1.firebaseio.com",
+    "project_id": "appjam-50ca1",
+    "storage_bucket": "appjam-50ca1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383212921124:android:bf72d56d5b8a632d",
+        "android_client_info": {
+          "package_name": "com.grapefruit.appjam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383212921124-t3eop0tk75fkt1pn7b4ps1322b3cv0hl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grapefruit.appjam",
+            "certificate_hash": "38e06424c08554edba63a7389c9ccf8169e7feff"
+          }
+        },
+        {
+          "client_id": "383212921124-g28hbvvassmr4lg6hkf1sr93j54n9mgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZbJoCXw2g85pkCg3kW-MpfCXibxnu6To"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383212921124-g28hbvvassmr4lg6hkf1sr93j54n9mgi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

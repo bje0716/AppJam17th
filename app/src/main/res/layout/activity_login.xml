@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-MAIL"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:padding="12dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:backgroundTint="@color/white"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:textColorHint="@color/white"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:hint="PW"/>
+
+            <TextView
+                android:id="@+id/join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/join"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:text="SIGN IN"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="#88dd4b39"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+    </LinearLayout>
+</layout>

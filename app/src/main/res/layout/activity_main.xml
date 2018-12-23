@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_insetEdge="bottom">
+
+        <RelativeLayout
+            android:id="@+id/ui_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.grapefruit.appjam.views.LockedViewPager
+                android:id="@+id/ui_fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </RelativeLayout>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            app:layout_behavior="com.grapefruit.appjam.behaviors.BottomNavigationBehavior"
+            app:layout_insetEdge="bottom"
+            app:itemTextColor="@color/colorPrimary"
+            app:itemIconTint="@color/colorPrimary"
+            app:menu="@menu/bottom_nav"/>
+    </android.support.design.widget.CoordinatorLayout>
+</layout>
